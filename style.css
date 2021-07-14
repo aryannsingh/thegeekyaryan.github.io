@@ -1,0 +1,255 @@
+*{
+    padding: 0;
+    margin:0;
+}
+.navbar{
+    background-color: #fff;
+    width:100%;
+    height:50px;
+
+}
+.AS{
+font-family: 'Crete Round', serif;
+font-size: 28px;
+color:#000;
+float:left;
+padding-top: 3px;
+padding-left:4px;
+}
+.active{
+    font-family: 'Crete Round', serif;
+    font-size:20px;
+    text-decoration: none;
+    color:#000;
+    cursor:pointer;
+    float: right;
+    font-feature-settings: "liga", "clig", "lnum", "kern";
+    padding-left:18px;
+    padding-top: 8px;
+    }
+    .active:hover{
+     text-decoration: underline solid #3ac;
+    }
+
+    .container{
+      
+        width:100%;
+        height:800px;
+    }
+    h1, h2 {
+        font-weight: 200;
+        margin: 0.4rem;
+    }
+    .h{                  
+          padding-top: 200px;
+        font-size: 2.5rem;
+      padding-left: 430px;
+      color:#000;
+      
+      }
+      
+      .hq{
+        font-size: 2rem;
+        color: #000;
+        padding-left: 450px;
+      
+      }
+      
+      /* Cursor */
+      .txt-type > .txt {
+        border-right: 0.2rem solid #777;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      
+      /* Create two equal columns that floats next to each other */
+      .column {
+        float: left;
+        width: 50%;
+       background-color: #000;
+        padding: 10px;
+        height: 200px; /* Should be removed. Only for demonstration */
+      }
+      
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      .para{
+    float:right;
+  padding-left: 30px;
+    font-family: 'Open Sans', sans-serif;
+color: #595959;
+font-weight: normal;
+font-size: 19x;
+line-height: 1.6em;
+}
+.par{
+    float:left;
+display: flex;
+    font-size: 20px;
+    color:#000;
+    font-family: 'Courier New', monospace;
+}
+.al{
+height: 300px;
+width:400px;
+}
+.row{
+    height:400px;
+    background-color: #fff;
+}
+
+.card{
+    display:flex;
+    float:left;
+    width:400px;
+color:#000;
+    height:300px;
+padding-left:30px;
+    
+}
+.hello {
+    background-color: #f2f2f2;
+  padding-top: 30px;
+    color: white;
+    height:80px;
+  }
+  .card-section{
+      height:300px;
+  }
+  .l{
+    font-family: 'Open Sans', sans-serif;
+      font-size: 20px;
+      color: #000;
+  }
+  .li{
+    
+    font-family: 'Crete Round', serif;
+    font-size: 18px;
+    color: #000;
+  }
+  
+  .buttoom{
+    border: none;
+    color: white;
+    border-radius: 4px;
+    padding: 8px 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+    cursor:pointer;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+    
+
+  .buttoom:hover{
+    background-color: #4CAF50;
+    color: white;
+  }
+  .aa{
+float: right;
+color:#fff;
+text-decoration: none;
+color:#595959;
+padding-right: 20px;
+padding-top: 15px;
+font-size: 25px;
+  }
+  .sc{
+    font-size: 20px;
+    padding-left: 520px;
+    color: #595959;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .aaa{
+    padding-top: 8px;
+  }
+
+@media only screen and (max-width: 350px){
+  .navbar{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+  }
+  .AS{
+    padding-left: 150px;
+  }
+  .active{
+    padding-left: 150px;
+  }
+}
+@media(max-width:1100px){
+  .card{
+    flex-direction: column;
+  }
+  .card-section{
+    flex-direction: column;
+  }
+  .hello{
+    display: none;
+  }
+}
+@media(max-width:1000px){
+  .container{
+    height: 700px;
+  }
+  .h{
+    padding-left: 200px;
+  }
+  .hq{
+    padding-left: 200px;
+  }
+}
+
+@media(max-width:690px){
+  .container{
+    height: 700px;
+  }
+  .column{
+    width:100%;
+    flex-direction: column;
+    height: 400px;
+  }
+  .h{
+    padding-left: 100px;
+  }
+  .hq{
+    padding-left: 100px;
+  }
+}
+@media(max-width:480px){
+  .h{
+    font-size: 25px;
+    padding-left: 90px;
+  }
+  .txt-type{
+    font-size: 25px;
+  }
+  .hq{
+    font-size:25px;
+    padding-left: 90px;
+  }
+}
+@media(max-width:330px){
+.h{
+padding-left: 5px;
+font-size: 19px;
+}
+.hq{
+  padding-left: 5px;
+  font-size: 19px;
+}
+.txt-type{
+  font-size: 19px;
+}
+}
