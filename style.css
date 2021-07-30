@@ -195,9 +195,10 @@ font-size: 25px;
     }
   }
 @media only screen and (max-width: 550px){
-  .navbar{
-    height: 180px;
+    .navbar{
+    height: 290px;
     display: flex;
+    background-color: #000;
     
     flex-direction: column;
   }
@@ -206,15 +207,23 @@ font-size: 25px;
   }
   .AS{
     padding-left: 190px;
-    padding-top: 6px;
+    padding-bottom: 10px;
+
   }
   .active{
     padding-left: 190px;
     padding-top:6px;
+    border-top: 2px solid#fff;
+    padding-bottom: 10px;
+    color:#fff;
   }
   .acti{
-    padding-left: 170px;
+    padding-left: 160px;
     padding-top: 6px;
+    color:#fff;
+    
+    padding-bottom: 10px;
+    border-top: 2px solid #fff;
   }
   
 }
