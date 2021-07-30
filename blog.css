@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin:0;
+}
+.m{
+    padding-top: 200px;
+    padding-left: 520px;
+    font-size: 80px;
+    font-family: 'Nunito',sans-serif;
+    color: #525252;
+    font-weight: 950;
+    
+}
+@media only screen and (max-width: 550px){
+    .navbar{
+      height: 100px;
+      display: flex;
+      flex-direction: column;
+    }
+    .car{
+      height:600px;
+    }
+    .AS{
+      padding-left: 170px;
+    }
+    .active{
+      padding-left: 170px;
+    }
+    .acti{
+      padding-left: 140px;
+    }
+    
+  }
+  @media only screen and (max-width: 950px){
+.m{
+    padding-left: 100px;
+    font-size: 30px;
+}
+  }
