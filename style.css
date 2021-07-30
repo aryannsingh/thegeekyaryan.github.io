@@ -196,7 +196,7 @@ font-size: 25px;
   }
 @media only screen and (max-width: 550px){
     .navbar{
-    height: 290px;
+    height: 270px;
     display: flex;
     background-color: #000;
     
@@ -218,7 +218,7 @@ font-size: 25px;
     color:#fff;
   }
   .acti{
-    padding-left: 160px;
+    padding-left: 170px;
     padding-top: 6px;
     color:#fff;
     
