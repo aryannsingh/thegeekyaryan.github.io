@@ -196,7 +196,7 @@ font-size: 25px;
   }
 @media only screen and (max-width: 550px){
   .navbar{
-    height: 100px;
+    height: 180px;
     display: flex;
     
     flex-direction: column;
@@ -213,7 +213,7 @@ font-size: 25px;
     padding-top:6px;
   }
   .acti{
-    padding-left: 160px;
+    padding-left: 170px;
     padding-top: 6px;
   }
   
