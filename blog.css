@@ -16,7 +16,6 @@
       height: 100px;
       
       display: flex;
-      float:center;
       flex-direction: column;
     
     }
