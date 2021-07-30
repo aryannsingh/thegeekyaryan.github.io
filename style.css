@@ -198,19 +198,23 @@ font-size: 25px;
   .navbar{
     height: 100px;
     display: flex;
+    
     flex-direction: column;
   }
   .car{
     height:600px;
   }
   .AS{
-    padding-left: 170px;
+    padding-left: 190px;
+    padding-top: 6px;
   }
   .active{
-    padding-left: 170px;
+    padding-left: 190px;
+    padding-top:6px;
   }
   .acti{
-    padding-left: 140px;
+    padding-left: 160px;
+    padding-top: 6px;
   }
   
 }
