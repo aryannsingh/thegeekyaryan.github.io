@@ -197,31 +197,31 @@ font-size: 25px;
   }
 @media only screen and (max-width: 550px){
   .navbar{
-    height: 275px;
-    display: flex;
-    background-color: #000;
+    height: 285px;
     
-    flex-direction: column;
+    background-color: #fff;
+    
+    
   }
   .car{
     height:600px;
   }
   .AS{
-    padding-left: 190px;
+  padding-left: 2px;
     padding-bottom: 10px;
 
   }
   .active{
-    padding-left: 190px;
+    padding-left: 2px;
     padding-top:6px;
     border-top: 2px solid#fff;
     padding-bottom: 10px;
-    color:#fff;
+    color:#000;
   }
   .acti{
-    padding-left: 170px;
+    padding-left: 2px;
     padding-top: 6px;
-    color:#fff;
+    color:#000;
 
     padding-bottom: 10px;
     border-top: 2px solid #fff;
@@ -235,7 +235,6 @@ font-size: 25px;
   .hello{
     border-top: 2px solid#fff;
     width:100%;
-      height:50px;
     padding-top: 17px;
   }
   .sc{
@@ -275,7 +274,7 @@ font-size: 25px;
     border-bottom: 2px solid#fff;
   }
   .card-section{
-    height: 600px;
+    height: 500px;
   }
   .h{
     padding-left: 200px;
@@ -287,12 +286,18 @@ font-size: 25px;
 
 @media(max-width:690px){
   .container{
-    height: 700px;
+    height: 400px;
+    
   }
+.h{
+  padding-top: 45px;
+}
+
   .column{
     width:100%;
     flex-direction: column;
-    height: 400px;
+    height: 340px;
+  
   }
   .h{
     padding-left: 100px;
@@ -357,7 +362,8 @@ font-size: 19px;
     font-size:24px;
     font-weight:950;
     font-style: normal;
-    padding-left: 20px;
+    padding-left:17px;
+    padding-bottom: 5px;
     padding-top: 3px;
   
     color: #525252;
@@ -405,3 +411,61 @@ font-size: 19px;
       padding-left:18px;
       padding-top: 8px;
     }
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+  text-decoration: none;
+}
+.gool{
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  min-height: 60px;
+margin-top: 90px;
+background-color: #f9f9f9;
+box-shadow: inset 0 8px 8px -8px rgba(0,0,0,0.1);
+padding: 40px 0;
+  
+}
+
+.d{
+  padding-left:540px;
+  color:#000;
+  font-family: 'Nunito',sans-serif;
+}
+
+@media(max-width:1100px){
+  .gool{
+    width:100%;
+    height:80px;
+    min-height: 60px;
+    margin-top: 2px;
+    background-color: #f9f9f9;
+    box-shadow: inset 0 8px 8px -8px rgba(0,0,0,0.1);
+  
+  }
+  .d{
+    padding-left: 200px;
+     margin-top:3px;
+     width:100%;
+  }
+}
+@media(max-width:700px){
+  .gool{
+    border-top: 8px solid#fff;
+  }
+  .d{
+    margin-top: 15px;
+    padding: 20px 10px 30px;
+    padding-left: 20px;
+    width:100%;
+    background-color: #f9f9f9;
+  }
+}
+.o{
+  width:50px;
+  color:#fff;
+}
