@@ -14,6 +14,7 @@ font-size: 28px;
 color:#3ac;
 text-decoration: none;
 float:left;
+font-family: 'Italianno', cursive;
 cursor: pointer;
 padding-top: 3px;
 padding-left:4px;
@@ -195,8 +196,8 @@ font-size: 25px;
     }
   }
 @media only screen and (max-width: 550px){
-    .navbar{
-    height: 270px;
+  .navbar{
+    height: 285px;
     display: flex;
     background-color: #000;
     
@@ -221,7 +222,7 @@ font-size: 25px;
     padding-left: 170px;
     padding-top: 6px;
     color:#fff;
-    
+
     padding-bottom: 10px;
     border-top: 2px solid #fff;
   }
@@ -231,8 +232,19 @@ font-size: 25px;
   .column{
     height:400px;
   }
+  .k-section{
+    height: 600px;
+    width:100%;
+    background-color: #f2f2f2;
+  }
   .hello{
-    display: none;
+    height: 500px;
+    width:100%;
+    background: color #f1f1f1;;
+  }
+  .sc{
+    font-size: 18px;
+    padding-left: 20px;
   }
 }
 .column {
@@ -332,14 +344,22 @@ font-size: 19px;
     font-size:24px;
     font-weight:950;
     font-style: normal;
-    text-decoration: none;
-    
+    padding-left: 40px;
+    padding-top: 3px;
   
     color: #fff;
     text-decoration: none;
-    
-    padding-left:40px;
-    padding-top: 8px;
+    }
+  .ll{
+    font-family: 'Nunito', sans-serif;
+    font-size:24px;
+    font-weight:950;
+    font-style: normal;
+    padding-left: 35px;
+    padding-top: 3px;
+  
+    color: #525252;
+    text-decoration: none;
     }
     .button {
       background-color: #3ac; /* Green */
