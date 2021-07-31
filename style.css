@@ -50,6 +50,22 @@ padding-left:4px;
     .active:hover{
      text-decoration: underline solid #3ac;
     }
+    .fa-github{
+      color:#525252;
+      font-size: 20px;
+    }
+    .fa-medium{
+      color:#525252;
+      font-size: 20px;
+    }
+    .fa-podcast{
+      color:#525252;
+      font-size: 20px;
+    }
+    .fa-youtube{
+      color:#525252;
+      font-size: 20px;
+    }
 
 
     .container{
@@ -65,7 +81,7 @@ padding-left:4px;
           padding-top: 200px;
         font-size: 2.5rem;
       padding-left: 430px;
-      color:#000;
+      color:#525252;
       font-family: 'Nunito', sans-serif;
       
       }
@@ -290,7 +306,7 @@ font-size: 25px;
     
   }
 .h{
-  padding-top: 45px;
+  padding-top: 60px;
 }
 
   .column{
