@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title  >Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet"> 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+<script src="script.js"></script>
+<script src="/lib/my-learning.js?v=1.0.2"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+<header>
+    <nav class="navbar">
+       <a href="index.html" class="as">Aryan Singh</a>
+        <a href="" class="active">Log In</a>
+        <a href="#333" class="active">Services</a>
+        <a href="#4ca40" class="active" >About</a>
+    <a href="" class="active">Blogs</a>
+    </nav>
+</header>
+<body>
+    <section class="cont-1-section">
+<div class="container">
+<div class="img-1"><img src="laptop.png" alt="" class="img"></div>
+</div>
+<div class="container-2">
+<p class="p-1"><span class="txt-type" data-wait="3000" data-words='["Hey There Aryan Singh","Welcome To My Website"]'></span></p>
+<p class="p-2">I am a human from Hyderabad, India. I enjoy producing solutions through the use of design and code. I’ve had the great fortune to work with some fantastic people at various corporations around the world, and I’ve also done some work with individual clients as a freelancer, creating tailored experiences with a focus on minimalism and interaction design.
+    Thanks for visiting my website and have an exciting journey ahead :)
+    
+    </p>
+</div>
+</section> 
+<section class="sec-1-section">
+  <div class="About">
+    <p class="p-3" id="4ca40">About Me </p>
+  </div>
+
+  <p class="p-4">HTML</p>
+   <div class="watagee">
+    <i class="fas fa-heartbeat"></i>
+    <p class="p-5">We make tutorials of all the Programming and Scripting languages to help for free.
+
+    </p>
+    </div>
+    <div class="watage">
+    <div class="watage-1"></div>
+  </div>
+  <br>
+  <p class="p-4">CSS</p>
+  <div class="watagee5">
+    <i class="fas fa-birthday-cake"></i>
+    <p class="p-5"> We also covers all the important topics as per university to help students to understant topic easily.</p>
+
+    </div>
+
+  <div class="watage">
+    <div class="watage-2"></div>
+  </div>
+  <br>
+  <p class="p-4">JS</p>
+  <div class="watage">
+    <div class="watage-3"></div>
+  </div>
+<br>
+  <p class="p-4">PYTHON</p>
+  
+  <div class="watage">
+    <div class="watage-4"></div>
+  </div>
+  
+
+  
+</section>
+<section class="sort-section">
+
+
+<div class="div-1">
+  <p class="p-10" id="333"> Our Services</p>
+  <p class="p-15">I provide source code of my projects at github and making it </p>
+  <p class="p-20"> easier to understand I  write blogs on it. I also make podcast to  </p>
+  
+<p class="p-20">hear it you can click the button present below</p>
+<p class="p-25">Think Big. Think Creative.</p>
+<div class="p-30"><button class="button1">My Blog</button></div>
+<div class="p-35"><button class="button2">My Podcast</button></div>
+</div>
+
+</section>
+<p class="o">A</p>
+<footer class="gool">
+  <div class="content">
+
+  <div class="bottom">
+    <p class="d">Copyright © 2021-Aryan Singh -All rights reserved</p>
+  </div>
+</footer>
+
+<script>
+    class TypeWriter {
+        constructor(txtElement, words, wait = 3000) {
+          this.txtElement = txtElement;
+          this.words = words;
+          this.txt = '';
+          this.wordIndex = 0;
+          this.wait = parseInt(wait, 10);
+          this.type();
+          this.isDeleting = false;
+        }
+      
+        type() {
+          // Current index of word
+          const current = this.wordIndex % this.words.length;
+          // Get full text of current word
+          const fullTxt = this.words[current];
+      
+          // Check if deleting
+          if(this.isDeleting) {
+            // Remove char
+            this.txt = fullTxt.substring(0, this.txt.length - 1);
+          } else {
+            // Add char
+            this.txt = fullTxt.substring(0, this.txt.length + 1);
+          }
+      
+          // Insert txt into element
+          this.txtElement.innerHTML = `<span class="txt">${this.txt}</span>`;
+      
+          // Initial Type Speed
+          let typeSpeed = 80;
+      
+          if(this.isDeleting) {
+            typeSpeed /= 2;
+          }
+      
+          // If word is complete
+          if(!this.isDeleting && this.txt === fullTxt) {
+            // Make pause at end
+            typeSpeed = this.wait;
+            // Set delete to true
+            this.isDeleting = true;
+          } else if(this.isDeleting && this.txt === '') {
+            this.isDeleting = false;
+            // Move to next word
+            this.wordIndex++;
+    
+            typeSpeed = 500;
+          }
+      
+          setTimeout(() => this.type(), typeSpeed);
+        }
+      }
+      
+      
+      // Init On DOM Load
+      document.addEventListener('DOMContentLoaded', init);
+      
+      // Init App
+      function init() {
+        const txtElement = document.querySelector('.txt-type');
+        const words = JSON.parse(txtElement.getAttribute('data-words'));
+        const wait = txtElement.getAttribute('data-wait');
+        // Init TypeWriter
+        new TypeWriter(txtElement, words, wait);
+      }
+      
+</script>
+</body>
+</html>
