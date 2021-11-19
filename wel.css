@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    width:100%;
+    height:50px;
+        background-image:#000B18;
+}
+.grad{
+    width:100%;
+    height:570px;
+    background:linear-gradient(to bottom right,#000B18,#000,#000,#000,#000,#000,#000,#b58ecc,rgba(255,0,0,0),  rgba(255,0,0,1));
+}
+.logo{
+    font-size: 20px;
+    font-weight: 900;
+    text-decoration: none;
+    color:#fff;
+    display: flex;
+    float:left;
+    cursor: pointer;
+    padding-left: 30px;
+    padding-top: 9px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.active{
+    font-size: 17px;
+    text-decoration: none;
+    color:#fff;
+    display: flex;
+    cursor: pointer;
+    float:left;
+    padding-top: 12px;
+    padding-left: 20px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.q{
+    width:250px;
+    height:30px;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+
+    color: #111;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 17px;
+    padding: 6px 6px;
+    border:1px solid#000;
+    border-radius: 10px;
+}
+.sa{
+    padding-top: 10px;
+    padding-left: 200px;
+}
+.aa{
+    padding-top:10px;
+    padding-left: 200px;
+}
+.button {
+    background-color: #000; /* Green */
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid#fff;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 1px 1px;
+    cursor: pointer;
+  }
+  .button3 {border-radius: 8px;}
+  .k{
+    font-size: 70px!important;
+    font-family: 'Nunito',sans-serif;
+    color:#fff;
+    font-weight: 200;
+    letter-spacing:-1px;
+    padding-top: 100px;
+    padding-left: 40px;
+    
+  }
+  .kk{
+    font-size: 70px!important;
+font-weight: 200;
+   
+    color:#fff;
+    letter-spacing:-1px;
+    font-family: 'Nunito', sans-serif;
+
+    color:#fff,#b58ecc;
+    padding-left: 45px;
+
+  }
+  .qq{
+      width:500px;
+      height:40px;
+      font-size: 20px;
+      color:#000;
+      font-family: 'Nunito',sans-serif;
+      border-radius: 5px;
+      border:2px solid#000;
+      background-color:#fff;
+      padding-left: 10px;
+      padding-right: 10px;
+  }
