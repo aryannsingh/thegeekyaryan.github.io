@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aryan Singh | Services</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet"> 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="services.css">
+</head>
+<header>
+    <nav class="navbar">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <a href="index.html" class="as">Aryan Singh</a>
+        
+
+          <div id="mySidepanel" class="sidepanel">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <a href="About.html">About</a>
+            <a href="index.html"> Home </a>
+          </div>
+          <style>
+            .aa{
+              font-family: 'Poppins', sans-serif;
+              color:#fff;
+            }
+          </style>
+          <button class="openbtn" onclick="openNav()">☰ </button>  
+         
+          
+          <script>
+          function openNav() {
+            document.getElementById("mySidepanel").style.width = "250px";
+          }
+          
+          function closeNav() {
+            document.getElementById("mySidepanel").style.width = "0";
+          }
+        </script>
+    
+         <a href="index.html" class="active">Home</a>
+         <a href="about.html" class="active" >About</a>
+  
+
+     </nav>
+</header>
+<body>
+    <section class="container-section">
+        <div class="container">
+        <p class="p-1">Our Services</p>
+        <p class="p-2">Your trusted partner for business and technology challenges, including
+    business continuity, remote workforces, virtual client engagement and 
+            more .</p>
+</div>
+</section>
+<section class="continue-section">
+    <p class="p-4">We are specialized in :</p>
+        <span class="s-1">HTML</span>
+        <span class="s-1">CSS</span>
+        <span class="s-1">Java Script</span>
+        <span class="s-1">Node.js</span>
+         <span class="s-1">UI/UX</span>
+         <button class="open-button" onclick="openForm()">Chat</button>
+
+<div class="chat-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h1>Chat</h1>
+
+    <label for="msg"><b>Message</b></label>
+    <textarea placeholder="Type message.." name="msg" required class="text"></textarea>
+
+    <button type="submit" class="btn">Send</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+    </section>
+<section class="service-section">
+  
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="clo.png" alt="" width="287px">
+      <div class="container">
+        <h2>Cloud Computing</h2>
+        
+        <p class="pi">Cloud computing transforms IT infrastructure into a utility:
+       It lets you ‘plug into' infrastructure via the internet, 
+          and use computing resources without installing
+        and maintaining them on-premises.</p>
+      
+        <p><button class="button">Coming soon !!</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="ml.png" alt="" class="" width="333px">
+      <div class="container">
+        <h2>Machine Learning</h2>
+     <p class="pi">  Simply put, machine learning allows the user to feed a 
+     computer algorithm an immense amount of data and have the 
+    computer analyze and make data-driven recommendations and
+      decisions based on only the input data.</p>
+        
+        <p><button class="button">Coming soon !!</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="ear.png" alt="" class="ear" width="390px";>
+      <div class="container">
+        <h2>Artificial Intelligence</h2>
+        <p class="pi"> Artificial intelligence is the simulation of human 
+          intelligence processes by machines, especially computer 
+      systems. Specific applications of AI include expert systems,
+               natural language processing, speech recognition and machine vision.</p>
+     
+        <p><button class="button">Coming soon !!</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+  </div>
+</section>
+<footer class="gool">
+  <div class="content">
+
+  <div class="bottom">
+    <span class="d">Copyright © 2021-Aryan Singh -All rights reserved</span>
+  </div>
+</footer>
+</body>
+</html>
