@@ -1,0 +1,397 @@
+*{
+    padding: 0;
+    margin:0;
+}
+.html{
+scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background:yellow; 
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: yellow; 
+  }
+
+.navbar{
+    width:100%;
+    height:60px;
+    background-color: #fff;
+}
+.as{
+    float:left;
+    padding:15px 20px;
+    color:#3ac;
+    font-size: 19px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.activ{
+  display: flex;
+  float:right;
+  padding-right: 5px;
+padding-top: 5px;
+}
+
+.button{
+  background-color: #000;
+}
+.fa-globe-asia{
+  font-size: 26px;
+  color:#fff;
+}
+.active{
+    display: flex;
+    float:right;
+    font-size: 16px;
+    color:#111;
+    text-decoration: none;
+    padding:15px 25px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidepanel  {
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  height: 500px;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidepanel a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidepanel a:hover {
+  color: #f1f1f1;
+}
+
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #fff;
+  color: black;
+  padding: 10px 15px;
+  border: none;
+  float:right;
+  display:none;
+}
+.line{
+  width:33px;
+  background-color: #000;
+  height:4px;
+  margin:3px,3px;
+}
+.active:hover{
+  color:#3ac;
+
+  border-bottom:3px solid #3ac;
+}
+.container-section{
+  background-color: #000;
+  background-size: cover;
+  width:100%;
+height: 300px;
+}
+.p-1{
+  font-size: 30px;
+  padding-left: 40px;
+  padding-top: 30px;
+  color:#fff;
+  font-family:'Poppins', sans-serif ;
+}
+.p-2{
+  font-size: 20px;
+  padding-left: 40px;
+  padding-top: 30px;
+  color:#fff;
+  font-family:'Poppins', sans-serif ;
+}
+.p-3{
+  font-size: 20px;
+  padding-left: 40px;
+  padding-top:3px;
+  color:#fff;
+  font-family:'Poppins', sans-serif ;
+}
+.continue-section{
+width:100%;
+height:220px;
+background-color:darkgoldenrod;
+}
+.p-4{
+  font-size: 30px;
+  padding-left: 40px;
+  padding-top:23px;
+  color:#fff;
+  font-family:'Poppins', sans-serif ;
+}
+.s-1{
+  font-size: 50px;
+  padding-left: 80px;
+  padding-top:26px;
+  color:#00FFFF;
+
+  font-family:'Poppins', sans-serif ;
+}
+
+.open-button {
+  background-color: #000;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+float:right;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width textarea */
+.text {
+  width: 100%;
+padding-top: 3px;
+padding-left: 3px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 200px;
+}
+
+/* When the textarea gets focus, do something */
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/send button */
+.form-container .btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add soe hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+.service-section{
+  width:100%;
+  height:500px;
+
+}
+
+.column {
+  float: left;
+  width: 30%;
+  margin-bottom: 16px;
+  padding: 5 18px;
+  height:300px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+.pi{
+  font-size: 16px;
+  color:#111;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family:'Poppins', sans-serif;
+}
+.gool{
+  width: 100%;
+  bottom: 0;
+left:0;
+align-items: center;
+min-height: 20px;
+margin-top: 20px;
+background-color: #f9f9f9;
+box-shadow: inset 0 8px 8px -8px rgba(0,0,0,0.1);
+padding: 40px 0;
+  
+}
+
+.bottom{
+text-align: center;
+  color:#525252;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+}
+@media only screen and (max-width:1200px){
+  .service-section{
+    height:1750px;
+
+  }
+  .row{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+  }
+  .column{
+    display: flex;
+    width:100%;
+    height:400px;
+    flex-direction: column;
+
+    padding-top: 130px;
+
+  }
+  .ear{
+    width:400px
+  }
+}
+@media only screen and (max-width:1100px){
+  
+  .active{
+    display: none;
+    
+  }
+}
+@media only screen and (max-width:950px){
+  
+
+  .openbtn{
+    display: block;
+  }
+}
+
+
+@media only screen and (max-width:780px){
+  .continue-section{
+    height:550px;
+    
+  }
+  .container-section{
+    height:400px;
+  }
+  .p-4{
+    font-size: 25px;
+  }
+  .s-1{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    font-size: 20px;
+    padding-left: 10px;
+  }
+  .d{
+    align-items: center;
+    left:0;
+  }
+  .ear{
+    width:300px;
+  }
+  .column{
+    padding-top: 150px;
+  }
+}
