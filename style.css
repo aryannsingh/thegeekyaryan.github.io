@@ -114,7 +114,7 @@ scroll-behavior: smooth;
   text-decoration: none;
   font-family: 'Poppins', sans-serif;
 }
-  .gool-section{
+  .gool{
     width: 100%;
     bottom: 0;
     left: 0;
@@ -148,11 +148,11 @@ scroll-behavior: smooth;
     .openbtn{
       display: block;
     }
-.gool-section{
+.gool{
 bottom:0;
 }
 .cont-1-section{
-height:2400px;
+height:5000px;
 
 }
 
